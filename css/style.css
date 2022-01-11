@@ -265,9 +265,18 @@ section.about .content .left button{
 }
 
 section.about .content .left button:hover{
-    background: var(--yellow);
+    background: linear-gradient(to right, var(--secondary), var(--danger));
     color: black;
 }
+
+section.about .content .left a{
+    color: var(--pure);
+}
+
+section.about .content .left a:hover{
+    color: var(--black)
+}
+
 
 
 section.about .content .right p{
@@ -640,7 +649,7 @@ section.contact .wrapper .right button{
 }
 
 section.contact .wrapper .right button:hover{
-    background: var(--yellow);
+    background: linear-gradient(to right, var(--secondary), var(--danger));
     color: black;
 }
 
