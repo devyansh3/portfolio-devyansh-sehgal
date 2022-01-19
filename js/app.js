@@ -68,7 +68,7 @@ $(document).ready(function(){
     //slider
      
     $('.slider').slick({
-        arrows: false,
-        autoplay: true
+        arrows: true,
+        autoplay: true,
     });
 });
