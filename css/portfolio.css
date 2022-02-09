@@ -267,6 +267,8 @@ section.about .content .left button{
 section.about .content .left button:hover{
     background: linear-gradient(to right, var(--secondary), var(--danger));
     color: black;
+    transition: ease-in-out 2s;
+
 }
 
 section.about .content .left a{
@@ -274,7 +276,9 @@ section.about .content .left a{
 }
 
 section.about .content .left a:hover{
-    color: var(--black)
+    color: var(--black);
+    transition: ease-in-out 0.3s;
+
 }
 
 
@@ -644,13 +648,15 @@ section.contact .wrapper .right button{
     font-size: 14px;
     border-radius: 4px;
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    
 
 }
+
 
 section.contact .wrapper .right button:hover{
     background: linear-gradient(to right, var(--secondary), var(--danger));
     color: black;
+    transition: ease-in-out 2s;
 }
 
 footer{
