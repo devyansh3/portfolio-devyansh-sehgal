@@ -413,6 +413,7 @@ section.skills .skills_wrapper .skill-box .progress_wrap .progress_bar .tooltip{
     font-size: 16px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    visibility: hidden;
 }
 
 /* section.counter_wrapper{
@@ -520,9 +521,15 @@ section.work .wrapper .slider_wrapper{
 section.partners .partner_text{
     color: var(--danger);
     text-align: center;
-    padding: 10px 15px;
+    padding: 10px 5px;
     font-size: 14px;
     letter-spacing: 2px;
+    background-color: #060b1b;
+    border-radius: 5px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 }
 
@@ -531,7 +538,19 @@ section.partners .brands_wrapper{
     align-items: center;
     justify-content: space-around;
     margin-top: 3rem;
+    background-color: #eff2f9;
+    border-radius: 5px;
+    box-shadow: #1ecab8;
+    padding: 10px 15px;
 }
+
+section.partners .brands_wrapper a:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+
 
 /* left column ka size is half of right column, so grid spacing accordingly */
 section.contact .wrapper {
